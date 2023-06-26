@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 vscode-devcontainers-guide
+This repository is a comprehensive guide to working with Visual Studio Code's DevContainers. This project provides a containerized development environment where you can work on your Next.js app built with TypeScript, ESLint, and Tailwind CSS.
 
-## Getting Started
+## 📚 Prerequisites
+Before you get started, make sure you have installed the following:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [DevContainers extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-First, run the development server:
+## 🚀 Getting Started
+Follow the steps below to get your development environment set up:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Clone the repository**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   Use the DevContainers command to clone this repository into a container volume:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```
+   git clone https://github.com/dvPineda/vscode-devcontainers-guide.git
+   ```
+2. **Open the repository in a DevContainer**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   Use the command palette (F1) in Visual Studio Code and select `Dev containers: Open Folder in Container...` Then, navigate to the cloned repository.
 
-## Learn More
+3. **Run the Next.js application**
 
-To learn more about Next.js, take a look at the following resources:
+   Within the container, you can now run the Next.js application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🛠️ Technologies Used
+- [Next.js](https://nextjs.org/) - A React framework for production.
+- [TypeScript](https://www.typescriptlang.org/) - Static type definitions for JavaScript.
+- [ESLint](https://eslint.org/) - Pluggable JavaScript linter.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙌 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License
+[MIT](https://choosealicense.com/licenses/mit/)
