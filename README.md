@@ -12,16 +12,18 @@ Follow the steps below to get your development environment set up:
 
 1. **Clone the repository**
 
-   Use the DevContainers command to clone this repository into a container volume:
+   Clone this repository into your desired folder:
 
    ```
    git clone https://github.com/dvPineda/vscode-devcontainers-guide.git
    ```
+   
 2. **Open the repository in a DevContainer**
 
-   Use the command palette (F1) in Visual Studio Code and select `Dev containers: Open Folder in Container...` Then, navigate to the cloned repository.
+   Use the command palette (F1) in Visual Studio Code and select `Dev Containers: Open Folder in Container...` Then, navigate to the cloned repository.
+   Choose the [Default Linux Universal](https://github.com/devcontainers/templates/tree/main/src/universal) configuration
 
-3. **Run the Next.js application**
+4. **Run the Next.js application**
 
    Within the container, you can now run the Next.js application:
 
